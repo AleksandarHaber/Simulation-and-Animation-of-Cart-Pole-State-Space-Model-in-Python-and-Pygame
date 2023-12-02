@@ -36,7 +36,7 @@ Tutorials explaining the posted files:
 Explanation of posted files:
 
 
-![My Image1](coordinate_systems.png =250x250)
+![My Image1](coordinate_systems.png | width=100)
 
 ![My Image1](cartStates.png)
 
