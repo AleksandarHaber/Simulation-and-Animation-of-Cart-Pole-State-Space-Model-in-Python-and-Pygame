@@ -7,6 +7,12 @@ In this GitHub repository, we posted Python scripts that are used to
 
 (3) Generate the animation of simulated state-space trajectories by using the Pygame library. 
 
+Explanation of the posted files:
+
+- "derivationSimulation.py" - RUN THIS FILE FIRST! - this file is used to automatically derive the state-space model of the cart-pendulum system and to simulate the state-space model. This file will generate the simulation data file "simulationData.npy"
+
+- animation.py" - RUN THIS FILE AFTER RUNNING "derivationSimulation.py"  - this file is used to animate the simulated dynamics by using the Pygame library. This file will load the simulation data from the file "simulationData.npy".
+
 Tutorials explaining the posted files:
 
 - Derivation of the equations of motion of the cart-pendulum system:
@@ -33,12 +39,15 @@ Tutorials explaining the posted files:
   https://www.youtube.com/watch?v=vpxLF4cioCo
   
   
-Explanation of posted files:
-
+Snapshot of the animated cart-pendulum system:
 
 ![My Image1](coordinate_systems.png)
 
+Simulated states of the cart:
+
 ![My Image1](cartStates.png)
+
+Simulated pendulum states:
 
 ![My Image1](pendulumStates.png)
 
